@@ -135,8 +135,11 @@ You may also need to add an external to webpack.config.ls:
   },
 ```
 
+## 1.0.2
+- Fix iOS logError() method
+
 ## 1.0.1
-- Log aktual JS stacktrace
+- Log actual JS stacktrace
 
 ## 1.0.0
 - Added types

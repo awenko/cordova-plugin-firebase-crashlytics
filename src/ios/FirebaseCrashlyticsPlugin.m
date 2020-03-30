@@ -41,13 +41,13 @@
                 symbol = @"unknown";
             }
 
-            if ([fileName isEqual:[NSNull null]]) {
+            if ([filename isEqual:[NSNull null]]) {
                 filename = @"unknown";
             }
 
             [sf setSymbol: symbol];
             [sf setFileName: filename];
-            [sf setLineNumber: line[@"lineNumber"] unsignedIntValue]];
+            [sf setLineNumber: [line[@"lineNumber"] unsignedIntValue]];
             
             [stackFrames addObject:sf];
         }
